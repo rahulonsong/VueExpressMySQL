@@ -1,5 +1,4 @@
-console.log('Hello');
-console.log("It worked!");
+console.log("It's working!");
 const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
