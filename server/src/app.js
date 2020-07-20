@@ -15,5 +15,10 @@ app.get('/status', (req,res)=>{
         message:'Hello World'
     })
 })
+app.post("/register", (req, res) => {
+  res.send({
+    message: `Hello ${req.body.email}! Your user was registered! Have fun!`,
+  });
+});
 // eslint-disable-next-line no-undef
 app.listen(process.env.PORT || 8081)
